@@ -1,0 +1,107 @@
+body{
+    margin:0;
+    padding:0;
+    
+    
+}
+.bg-image {
+    /* The image used */
+    background-image: url("booking.jpg");
+    
+    
+    
+    /* Full height */
+    height: 100%; 
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .avatar {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    top: calc(-100px/2);
+    left: calc(50% - 40px);
+}
+.card p
+{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: white;
+}
+.card
+{
+    
+    padding:60px 40px 50px;
+    background-size:cover;
+    border-radius:100px;
+    background-color: rgba(0,0,0,.5);
+    opacity: 0.8;
+    color: #fff;
+  
+}
+.container
+{
+  top:55%;
+  left:50%;
+  position:absolute;
+  transform:translate(-50%,-50%);
+}
+#name
+{
+  width:250px;
+  border:none;
+  background:transparent;
+  border-bottom:1px solid  #fff;;
+  padding:5.5px;
+  margin-bottom:20px;
+  color: #fff;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16
+}
+
+
+
+#button
+{
+  border:20px;
+  padding:15px 10px;
+  background: rgb(158, 156, 156);
+  color: #fff;
+  margin-top:20px;
+  border:none;
+  outline:none;
+  margin-left:10px;
+  color: #fff;;
+  transition:3s;
+  border-radius:10px;
+}
+
+#button1
+{
+  border:20px;
+  padding:15px 10px;
+  background: rgb(158, 156, 156);
+  color: #fff;
+  margin-top:20px;
+  border:none;
+  outline:none;
+  margin-left:10px;
+  color:white;
+  transition:3s;
+  border-radius:10px;
+}
+
+.style{
+  padding: 5px 5px;
+  color:black;
+  margin-bottom:10px;
+  background:beige;
+  width:150px;
+  border: #fff;
+}

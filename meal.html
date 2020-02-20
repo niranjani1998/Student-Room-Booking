@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sign in form</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        body:before{
+            content: '';
+            position: fixed;
+            width: 100vw;
+            height: 100vh;
+            background-image: url("backfood.jpg");
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            -webkit-filter: blur(0px);
+            -moz-filter: blur(0px);
+            -o-filter: blur(0px);
+            -ms-filter: blur(0px);
+            filter: blur(01px);
+        }
+        .contact-form
+        {
+            position: absolute;
+            top: 50%;
+            left: 30%;
+            transform: translate(-50%,-50%);
+            width: 400px;
+            height: 500px;
+            border-radius: 25px;
+            padding: 80px 40px;
+            box-sizing: border-box;
+            background: rgba(0,0,0,.5);
+        }
+        .avatar {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            overflow: hidden;
+            top: calc(-80px/2);
+            left: calc(48% - 40px);
+        }
+        .contact-form h2 {
+            margin: 0;
+            padding: 0 0 20px;
+            color: #fff;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        .contact-form p
+        {
+            margin: 0;
+            padding: 0;
+            font-weight: bold;
+            color: #fff;
+        }
+        .contact-form input
+        {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .contact-form input[type="text"],
+        .contact-form input[type="password"]
+        {
+            border: none;
+            border-bottom: 1px solid #fff;
+            background: transparent;
+            outline: none;
+            height: 40px;
+            color: #fff;
+            font-size: 16px;
+        }
+        .contact-form input[type="submit"] {
+            height: 30px;
+            color: rgb(253, 252, 252);
+            font-size: 15px;
+            background: rgb(158, 156, 156);
+            cursor: pointer;
+            border-radius: 25px;
+            border: none;
+            outline: none;
+            margin-top: 15%;
+        }
+        .button{
+            height: 30px;
+            color: rgb(253, 252, 252);
+            font-size: 15px;
+            background: rgb(158, 156, 156);
+            cursor: pointer;
+            border-radius: 25px;
+            border: none;
+            outline: none;
+            margin-top: 10%;
+
+
+        }
+        .contact-form a
+        {
+            color: #fff;
+            font-size: 14px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        input[type="checkbox"] {
+            width: 20%;
+        }
+    </style>
+</head>
+<body>
+<div class="contact-form">
+    <img src="foodlogo.jpg" class="avatar">
+    <h2>FOOD BOOKING</h2>
+    <form>
+        <p>VEG</p><br>
+        <input type="Number" name="" placeholder="VEG">
+        <p>NON-VEG</p><br>
+        <input type="Number" name="" placeholder="NON-VEG">
+        <input type="button" value="Submit" class="button" onclick="location.href='type.html';">
+        <input type="button" value="cancel" class="button" onclick="location.href='forgot.html';">
+        <p>
+            <a href="AdminManagement.html"  align="right" target="display">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspBack</a><br>
+        </p>
+    </form>
+</div>
+</body>
+</html>

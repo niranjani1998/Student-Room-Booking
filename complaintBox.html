@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head><center>
+<h1 style="color:black;font-size:300%;font-family:Timesnewroman;text-align:top;"><span class="blinking">COMPLAINT BOX</span></h1></center>
+    <style>
+    body{
+background-image:url(box.jpg);
+background-size:cover;
+    }
+    .button{
+            height: 30px;
+            color: black(253, 252, 252);
+            font-size: 15px;
+            background:white(158, 156, 156);
+            cursor: pointer;
+            border-radius:20%;
+            border: none;
+            outline: none;
+            margin-top: -80%;
+            font-weight: bold;
+            font-family:Timesnewroman;
+}
+
+.container1{
+		width:400px;
+		margin:0px auto;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);}
+.blinking{
+    animation:blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #000;    }
+    49%{    color: #000; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #000;    }
+}
+
+        </style>
+</head>
+
+
+<body>
+<form>
+<p align="center">
+<b>ROOM NO&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:</b>&nbsp<input type="int" name="name"><br><br>
+<b>FLOOR NO&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:</b>&nbsp<input type="int" name="name"><br><br>
+<b>EMAIL-ID&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:</b>&nbsp<input type="varchar" name="name"><br><br>
+
+
+ <div class="container1">
+    <h2 class="text-muted"><font color="black">ADD YOUR QUERIES HERE!!!</font></h2>
+        <div class="col-md-10"><textarea class="form-control" id="feedbox" rows="6"  cols="57"></textarea><br>
+           </div>
+        </div>
+ </p> <br>    
+  <P align="center">
+<input type="button" name="SUBMIT" value="SUBMIT" class="button">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<input type="button" name="CANCEL" value="CANCEL" class="button"><br><br><br>
+</p>
+<a href="home.html" target="display"><font color="white">Home</font></a>
+
+</form>
+</body>
+</html>

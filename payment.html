@@ -1,0 +1,48 @@
+<html>
+    <head><title>booking</title>
+    <link rel="stylesheet" href="style3.css">
+    </head>
+    <style>
+            ::placeholder {
+              color:black;
+              opacity: 1; /* Firefox */
+            }
+            
+            :-ms-input-placeholder { /* Internet Explorer 10-11 */
+             color:black;
+            }
+            
+            ::-ms-input-placeholder { /* Microsoft Edge */
+             color:black;
+            }
+            </style>
+    <body>
+            <h6 style= "color:white;font-size:400%;font-family:'Times New Roman', Times, serif;text-align:center;">PAYMENT</h6>
+            <div class="container">
+                 
+                  <div class="card"> 
+                    <img src="pl1.jpg" class="avatar">
+                      <p>Card Owner</p>
+                     <input type="text" placeholder=" " id="inputName" class="name"><br>
+                    ChooseBanking: &nbsp;&nbsp;&nbsp;
+                     
+                                <select class="style" id="inputPay">
+                                  <option value="Credit Card">Credit Card</option>
+                                  <option value="Debit Card">Debit Card</option>
+                                  
+                                </select><br>
+                    <p>Card Number</p>
+                                <input type="number" placeholder=" " id="inputNum" class="name"><br>
+                    Expiry-Date:&nbsp;&nbsp;<input type="date" name="Check-in-Date" class="style" id="inputExpiry" class="name"><br>
+                                <input type="number"placeholder="CCV" class="style" id="inputCcv" ><br><br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="submit" onclick="handleClick()" id="button">pay</button>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" onclick="location.href='hotels.html';" class="button" value="cancel" id="button" style="top: -20px; padding-right: 20px;" >
+                      <br><br>
+                      <a href="home.html"  target="display"><font color="white">Home</font></a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                      <a href="complaint.html" align="right" target="display"><font color="white">Next</font></a><br>
+                </div>
+                
+            </div>
+
+            </body>
+            </html>
